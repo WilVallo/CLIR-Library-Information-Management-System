@@ -4,16 +4,39 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>CLIR Library Information Management</title>
+    <link href="~/CSS/default.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" href="Images/CLIR_Logo.png" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <header class="header1">
+            <div class="h_left">
+                <div class="logo_div">
+                    <img src="~\Images\CLIR_Logo.png" runat="server" class="logo"/>
+                </div>
+                <div>
+                    <p class="dept_name">CENTER FOR LEARNING AND INFORMATION RESOURCES</p>
+                    <p class="school_name">Mapúa Malayan Colleges Laguna</p>
+                </div>
+            </div>
+
+            <div class="h_right">
+                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px">
+                    
+                </asp:Button>
+            </div>
+        </header>
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
     </form>
 </body>
 </html>
