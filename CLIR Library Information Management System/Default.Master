@@ -8,6 +8,7 @@
     <link href="~/CSS/default.css" rel="stylesheet" />
 
     <link rel="icon" type="image/png" href="Images/CLIR_Logo.png" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -35,7 +36,7 @@
         <div class="main_content">
             <div class="left_panel">
                 <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~/Default.aspx" Font-Bold="true" Font-Underline="false">Home</asp:HyperLink><br />
-                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
+                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/ptr_Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
             </div>
 
             <div class="right_content">
@@ -43,7 +44,6 @@
                 </asp:ContentPlaceHolder>
             </div>
         </div>
-
     </form>
 </body>
 </html>

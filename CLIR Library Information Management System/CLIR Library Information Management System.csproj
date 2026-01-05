@@ -68,14 +68,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\default.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\CLIR_Logo.png" />
     <Content Include="Images\log_in.png" />
-    <Content Include="Services.aspx" />
+    <Content Include="ptr_Services.aspx" />
+    <Content Include="staff_BAL.aspx" />
+    <Content Include="staff_BookManagement.aspx" />
+    <Content Include="staff_Dashboard.aspx" />
+    <Content Include="staff_Grammarly.aspx" />
+    <Content Include="staff_ODDS.aspx" />
+    <Content Include="staff_PatronRecords.aspx" />
+    <Content Include="staff_Reports.aspx" />
+    <Content Include="staff_Turnitin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,17 +109,80 @@
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
-    <Compile Include="Services.aspx.cs">
-      <DependentUpon>Services.aspx</DependentUpon>
+    <Compile Include="ptr_Services.aspx.cs">
+      <DependentUpon>ptr_Services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Services.aspx.designer.cs">
-      <DependentUpon>Services.aspx</DependentUpon>
+    <Compile Include="ptr_Services.aspx.designer.cs">
+      <DependentUpon>ptr_Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.Master.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.Master.designer.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="staff_BAL.aspx.cs">
+      <DependentUpon>staff_BAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_BAL.aspx.designer.cs">
+      <DependentUpon>staff_BAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_BookManagement.aspx.cs">
+      <DependentUpon>staff_BookManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_BookManagement.aspx.designer.cs">
+      <DependentUpon>staff_BookManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_Dashboard.aspx.cs">
+      <DependentUpon>staff_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_Dashboard.aspx.designer.cs">
+      <DependentUpon>staff_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_Grammarly.aspx.cs">
+      <DependentUpon>staff_Grammarly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_Grammarly.aspx.designer.cs">
+      <DependentUpon>staff_Grammarly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_ODDS.aspx.cs">
+      <DependentUpon>staff_ODDS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_ODDS.aspx.designer.cs">
+      <DependentUpon>staff_ODDS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_PatronRecords.aspx.cs">
+      <DependentUpon>staff_PatronRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_PatronRecords.aspx.designer.cs">
+      <DependentUpon>staff_PatronRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_Reports.aspx.cs">
+      <DependentUpon>staff_Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_Reports.aspx.designer.cs">
+      <DependentUpon>staff_Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff_Turnitin.aspx.cs">
+      <DependentUpon>staff_Turnitin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff_Turnitin.aspx.designer.cs">
+      <DependentUpon>staff_Turnitin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Default.Master" />
+    <Content Include="Staff.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Staff.master.cs" Inherits="CLIR_Library_Information_Management_System.Staff" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CLIR Library Information Management</title>
+    <link href="~/CSS/default.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="Images/CLIR_Logo.png" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="header1">
+            <div class="h_left">
+                <div class="logo_div">
+                    <img src="~\Images\CLIR_Logo.png" runat="server" class="logo"/>
+                </div>
+                <div>
+                    <p class="dept_name">CENTER FOR LEARNING AND INFORMATION RESOURCES</p>
+                    <p class="school_name">Mapúa Malayan Colleges Laguna</p>
+                </div>
+            </div>
+
+            <div class="h_right">
+                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px">
+            
+                </asp:Button>
+            </div>
+        </header>
+
+        <div class="main_content">
+            <div class="left_panel">
+                <asp:HyperLink ID="Dashboard" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Dashboard.aspx" Font-Bold="true" Font-Underline="false">Dashboard</asp:HyperLink><br />
+                <asp:HyperLink ID="Reports" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Reports.aspx" Font-Underline="false" Font-Bold="true">Reports</asp:HyperLink><br />
+                <asp:HyperLink ID="Book_Management" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BookManagement.aspx" Font-Underline="false" Font-Bold="true">Book Management</asp:HyperLink><br />
+                <asp:HyperLink ID="Patron_Records" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_PatronRecords.aspx" Font-Underline="false" Font-Bold="true">Patron Records</asp:HyperLink><br />
+                <asp:HyperLink ID="ODDS" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_ODDS.aspx" Font-Underline="false" Font-Bold="true">ODDS</asp:HyperLink><br />
+                <asp:HyperLink ID="Turnitin" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Turnitin.aspx" Font-Underline="false" Font-Bold="true">Turnitin</asp:HyperLink><br />
+                <asp:HyperLink ID="Grammarly" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Grammarly.aspx" Font-Underline="false" Font-Bold="true">Grammarly</asp:HyperLink><br />
+                <asp:HyperLink ID="BAL" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BAL.aspx" Font-Underline="false" Font-Bold="true">Book A Librarian</asp:HyperLink>
+            </div>
+
+            <div class="right_content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
