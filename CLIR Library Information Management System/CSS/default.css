@@ -12,6 +12,20 @@
     display: flex;
 }
 
+.left_panel {
+    background-color: #1B233C;
+    width: 180px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.main_content{
+    display: flex;
+    height: 100vh;
+    width: 100%
+}
+
 body{
     margin: 0;
 }
@@ -34,7 +48,7 @@ p{
     width: 50%;
 }
 .logo{
-    width: 30px;
+    width: 40px;
 }
 
 .logo_div{
@@ -49,8 +63,13 @@ p{
 
 .dept_name{
     font-weight: 700;
+    font-size: 15px;
 }
 
-.log_in_out_BTN{
-    
+.hyperlink {
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 30px;
 }

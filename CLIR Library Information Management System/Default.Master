@@ -32,9 +32,16 @@
             </div>
         </header>
 
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="main_content">
+            <div class="left_panel">
+                <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~/Default.aspx" Font-Bold="true" Font-Underline="false">Home</asp:HyperLink><br />
+                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
+            </div>
+
+            <div class="right_content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
 
     </form>
