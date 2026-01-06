@@ -35,8 +35,8 @@
 
         <div class="main_content">
             <div class="left_panel">
-                <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~/Default.aspx" Font-Bold="true" Font-Underline="false">Home</asp:HyperLink><br />
-                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/ptr_Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
+                <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~client_Home/.aspx" Font-Bold="true" Font-Underline="false">Home</asp:HyperLink><br />
+                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/client_Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
             </div>
 
             <div class="right_content">

@@ -1,0 +1,87 @@
+﻿html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    margin: 0;
+    transform: scale(1.1);
+    background-image: linear-gradient(red,blue);
+    filter: blur(0px);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border-radius: 10px;
+    height: 60vh;
+    width: 60vh;
+    background-color: rgba(255,255,255,0.6);
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    box-shadow: 7px 5px 30px rgba(0,0,0,0.3);
+}
+
+.label1{
+    text-align: center;
+}
+
+.capsuls {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.textbox {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 6px;
+    border: 0px;
+    padding-left: 10px;
+    width: 100%;
+    box-shadow: 7px 2px 30px rgba(0,0,0,0.3);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7px;
+}
+
+.submitbutton {
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+    width: 60%;
+    margin-top: 5px;
+    background-color: #EE1D24;
+    color: white;
+}
+
+.logomain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}

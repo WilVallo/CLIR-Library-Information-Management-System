@@ -67,13 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="client_Home.aspx" />
     <Content Include="CSS\default.css" />
-    <Content Include="Dashboard.aspx" />
+    <Content Include="CSS\landing.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\CLIR_Logo.png" />
     <Content Include="Images\log_in.png" />
-    <Content Include="ptr_Services.aspx" />
+    <Content Include="Images\padlock.png" />
+    <Content Include="Images\user.png" />
+    <Content Include="client_Services.aspx" />
     <Content Include="staff_BAL.aspx" />
     <Content Include="staff_BookManagement.aspx" />
     <Content Include="staff_Dashboard.aspx" />
@@ -85,12 +88,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="client_Home.aspx.cs">
+      <DependentUpon>client_Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="client_Home.aspx.designer.cs">
+      <DependentUpon>client_Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -102,6 +105,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LandingPage.Master.cs">
+      <DependentUpon>LandingPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.Master.designer.cs">
+      <DependentUpon>LandingPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.Master.cs">
       <DependentUpon>Default.Master</DependentUpon>
@@ -109,12 +118,12 @@
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
-    <Compile Include="ptr_Services.aspx.cs">
-      <DependentUpon>ptr_Services.aspx</DependentUpon>
+    <Compile Include="client_Services.aspx.cs">
+      <DependentUpon>client_Services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ptr_Services.aspx.designer.cs">
-      <DependentUpon>ptr_Services.aspx</DependentUpon>
+    <Compile Include="client_Services.aspx.designer.cs">
+      <DependentUpon>client_Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Staff.Master.cs">
       <DependentUpon>Staff.Master</DependentUpon>
@@ -180,6 +189,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LandingPage.Master" />
     <None Include="packages.config" />
     <Content Include="Default.Master" />
     <Content Include="Staff.Master" />

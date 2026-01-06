@@ -25,9 +25,8 @@
             </div>
 
             <div class="h_right">
-                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px">
+                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px" />
             
-                </asp:Button>
             </div>
         </header>
 

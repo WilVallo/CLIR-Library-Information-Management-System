@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace CLIR_Library_Information_Management_System
 {
-    public partial class Dashboard : System.Web.UI.Page
+    public partial class LandingPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

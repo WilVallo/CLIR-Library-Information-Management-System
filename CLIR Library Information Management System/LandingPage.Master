@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LandingPage.master.cs" Inherits="CLIR_Library_Information_Management_System.LandingPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CLIR Library Information Management</title>
+    
+    <link href="~/CSS/landing.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="Images/CLIR_Logo.png" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
