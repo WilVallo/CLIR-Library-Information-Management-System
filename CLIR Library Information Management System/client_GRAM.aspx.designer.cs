@@ -11,7 +11,7 @@ namespace CLIR_Library_Information_Management_System
 {
 
 
-    public partial class Services
+    public partial class client_GRAM
     {
 
         /// <summary>

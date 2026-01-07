@@ -67,7 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="client_BAL.aspx" />
+    <Content Include="client_BAS.aspx" />
+    <Content Include="client_DOCR.aspx" />
+    <Content Include="client_GRAM.aspx" />
     <Content Include="client_Home.aspx" />
+    <Content Include="client_TURN.aspx" />
+    <Content Include="CSS\client_Services.css" />
     <Content Include="CSS\default.css" />
     <Content Include="CSS\landing.css" />
     <Content Include="Default.aspx" />
@@ -88,12 +94,47 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="client_BAL.aspx.cs">
+      <DependentUpon>client_BAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client_BAL.aspx.designer.cs">
+      <DependentUpon>client_BAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="client_BAS.aspx.cs">
+      <DependentUpon>client_BAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client_BAS.aspx.designer.cs">
+      <DependentUpon>client_BAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="client_DOCR.aspx.cs">
+      <DependentUpon>client_DOCR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client_DOCR.aspx.designer.cs">
+      <DependentUpon>client_DOCR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="client_GRAM.aspx.cs">
+      <DependentUpon>client_GRAM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client_GRAM.aspx.designer.cs">
+      <DependentUpon>client_GRAM.aspx</DependentUpon>
+    </Compile>
     <Compile Include="client_Home.aspx.cs">
       <DependentUpon>client_Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="client_Home.aspx.designer.cs">
       <DependentUpon>client_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="client_TURN.aspx.cs">
+      <DependentUpon>client_TURN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client_TURN.aspx.designer.cs">
+      <DependentUpon>client_TURN.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

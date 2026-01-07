@@ -1,4 +1,4 @@
-﻿.header1 {
+﻿.navbar {
     background-color: #1B233C;
     height: max-content;
     width: stretch;
@@ -10,20 +10,8 @@
     font-family: 'Segoe UI';
     font-weight: 500;
     display: flex;
-}
-
-.left_panel {
-    background-color: #1B233C;
-    width: 180px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.main_content{
-    display: flex;
-    height: 100vh;
-    width: 100%
+    justify-content: space-between;
+    align-items: center;
 }
 
 body{
@@ -39,7 +27,9 @@ p{
     padding-right: 20px;
     display: flex;
     width: 50%;
-    justify-content: flex-end
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .h_left{
@@ -71,5 +61,24 @@ p{
     font-family: 'Segoe UI';
     font-size: 13px;
     font-weight: 400;
-    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.logout_BTN{
+    margin-left: 20px;
+}
+.left_navbar {
+    height: 100vh;
+    width: 30vh;
+    background-color: #1B233C;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.maincontent{
+    display: flex;
+    height: 100vh;
 }

@@ -15,7 +15,7 @@
 <body>
     <form id="form1" runat="server">
 
-        <header class="header1">
+        <header class="navbar">
             <div class="h_left">
                 <div class="logo_div">
                     <img src="~\Images\CLIR_Logo.png" runat="server" class="logo"/>
@@ -27,23 +27,17 @@
             </div>
 
             <div class="h_right">
-                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px">
+                <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~/client_Home.aspx" Font-Underline="false">Home</asp:HyperLink><br />
+                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/client_Services.aspx" Font-Underline="false">Services</asp:HyperLink>
+            
+                <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="logout_BTN" Width="100px">
                     
                 </asp:Button>
             </div>
         </header>
 
-        <div class="main_content">
-            <div class="left_panel">
-                <asp:HyperLink ID="Home" runat="server" CssClass="hyperlink" NavigateUrl="~client_Home/.aspx" Font-Bold="true" Font-Underline="false">Home</asp:HyperLink><br />
-                <asp:HyperLink ID="Services" runat="server" CssClass="hyperlink" NavigateUrl="~/client_Services.aspx" Font-Underline="false" Font-Bold="true">Services</asp:HyperLink>
-            </div>
-
-            <div class="right_content">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>

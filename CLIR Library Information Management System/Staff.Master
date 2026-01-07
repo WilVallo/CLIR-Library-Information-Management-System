@@ -13,7 +13,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <header class="header1">
+        <header class="navbar">
             <div class="h_left">
                 <div class="logo_div">
                     <img src="~\Images\CLIR_Logo.png" runat="server" class="logo"/>
@@ -25,21 +25,21 @@
             </div>
 
             <div class="h_right">
-                <asp:Button ID="log_in_out" runat="server" Text="Log In" CssClass="log_in_out_BTN" Width="100px" />
+                <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="logout_BTN" Width="100px" />
             
             </div>
         </header>
 
         <div class="main_content">
-            <div class="left_panel">
-                <asp:HyperLink ID="Dashboard" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Dashboard.aspx" Font-Bold="true" Font-Underline="false">Dashboard</asp:HyperLink><br />
-                <asp:HyperLink ID="Reports" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Reports.aspx" Font-Underline="false" Font-Bold="true">Reports</asp:HyperLink><br />
-                <asp:HyperLink ID="Book_Management" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BookManagement.aspx" Font-Underline="false" Font-Bold="true">Book Management</asp:HyperLink><br />
-                <asp:HyperLink ID="Patron_Records" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_PatronRecords.aspx" Font-Underline="false" Font-Bold="true">Patron Records</asp:HyperLink><br />
-                <asp:HyperLink ID="ODDS" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_ODDS.aspx" Font-Underline="false" Font-Bold="true">ODDS</asp:HyperLink><br />
-                <asp:HyperLink ID="Turnitin" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Turnitin.aspx" Font-Underline="false" Font-Bold="true">Turnitin</asp:HyperLink><br />
-                <asp:HyperLink ID="Grammarly" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Grammarly.aspx" Font-Underline="false" Font-Bold="true">Grammarly</asp:HyperLink><br />
-                <asp:HyperLink ID="BAL" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BAL.aspx" Font-Underline="false" Font-Bold="true">Book A Librarian</asp:HyperLink>
+            <div class="left_navbar">
+                <asp:HyperLink ID="Dashboard" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Dashboard.aspx" Font-Underline="false">Dashboard</asp:HyperLink>
+                <asp:HyperLink ID="Reports" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Reports.aspx" Font-Underline="false">Reports</asp:HyperLink>
+                <asp:HyperLink ID="Book_Management" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BookManagement.aspx" Font-Underline="false">Book Management</asp:HyperLink>
+                <asp:HyperLink ID="Patron_Records" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_PatronRecords.aspx" Font-Underline="false">Patron Records</asp:HyperLink>
+                <asp:HyperLink ID="ODDS" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_ODDS.aspx" Font-Underline="false">ODDS</asp:HyperLink>
+                <asp:HyperLink ID="Turnitin" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Turnitin.aspx" Font-Underline="false">Turnitin</asp:HyperLink>
+                <asp:HyperLink ID="Grammarly" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_Grammarly.aspx" Font-Underline="false">Grammarly</asp:HyperLink>
+                <asp:HyperLink ID="BAL" runat="server" CssClass="hyperlink" NavigateUrl="~/staff_BAL.aspx" Font-Underline="false">Book A Librarian</asp:HyperLink>
             </div>
 
             <div class="right_content">
