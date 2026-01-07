@@ -73,6 +73,7 @@
     <Content Include="client_GRAM.aspx" />
     <Content Include="client_Home.aspx" />
     <Content Include="client_TURN.aspx" />
+    <Content Include="CSS\client_BAS.css" />
     <Content Include="CSS\client_Services.css" />
     <Content Include="CSS\default.css" />
     <Content Include="CSS\landing.css" />
@@ -148,6 +149,7 @@
     </Compile>
     <Compile Include="LandingPage.Master.cs">
       <DependentUpon>LandingPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="LandingPage.Master.designer.cs">
       <DependentUpon>LandingPage.Master</DependentUpon>
@@ -155,6 +157,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.Master.cs">
       <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
@@ -168,6 +171,7 @@
     </Compile>
     <Compile Include="Staff.Master.cs">
       <DependentUpon>Staff.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Staff.Master.designer.cs">
       <DependentUpon>Staff.Master</DependentUpon>
