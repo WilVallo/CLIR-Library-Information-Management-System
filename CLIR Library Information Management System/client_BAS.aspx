@@ -17,17 +17,21 @@
             <h3>Book A Seat Check-In</h3>
 
             <div class="prompt_container">
-                <asp:TextBox ID="patronID" runat="server" placeholder="Patron ID" MaxLength="10" TextMode="Number" CssClass="prompt"/>
+                <h4>Patron ID</h4>
+                <asp:TextBox ID="patronID" runat="server" placeholder="2026123456" MaxLength="10" TextMode="Number" CssClass="prompt"/>
 
+                <h4>Select CLIR Building</h4>
                 <asp:DropDownList ID="buildingLoc" runat="server" OnSelectedIndexChanged="buildingLoc_SelectedIndexChanged" AutoPostBack="true"  CssClass="prompt"> 
                     <asp:ListItem Value="0" Enabled="true" Selected="True" Text="Select Location"></asp:ListItem>
                     <asp:ListItem Value="1">Einstein</asp:ListItem>
                     <asp:ListItem Value="2">Rizal</asp:ListItem>
                 </asp:DropDownList>
-
+                
+                <h4>Select Preferred Seat</h4>
                 <asp:DropDownList ID="seatType" runat="server"  CssClass="prompt">
                 </asp:DropDownList>
 
+                <h4>Select Time of Stay</h4>
                 <asp:DropDownList ID="stayTime" runat="server"  CssClass="prompt">
                 </asp:DropDownList>
 

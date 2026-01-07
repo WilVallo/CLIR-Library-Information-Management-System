@@ -16,7 +16,7 @@
 
             <div class="capsuls">
                 <asp:TextBox ID="uname_TB" runat="server" placeholder="Username" CssClass="textbox username" Width="97%" Height="40"> </asp:TextBox>
-                <asp:TextBox ID="pword_TB" runat="server" placeholder="Password" CssClass="textbox password" Width="97%" Height="40"> </asp:TextBox>
+                <asp:TextBox ID="pword_TB" runat="server" placeholder="Password" CssClass="textbox password" Width="97%" Height="40" TextMode="password"> </asp:TextBox>
             </div>
 
             <div class="btn">
