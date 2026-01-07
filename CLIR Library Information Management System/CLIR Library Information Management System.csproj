@@ -73,7 +73,6 @@
     <Content Include="client_GRAM.aspx" />
     <Content Include="client_Home.aspx" />
     <Content Include="client_TURN.aspx" />
-    <Content Include="CSS\client_BAS.css" />
     <Content Include="CSS\client_Services.css" />
     <Content Include="CSS\default.css" />
     <Content Include="CSS\landing.css" />

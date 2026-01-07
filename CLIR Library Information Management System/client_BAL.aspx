@@ -12,4 +12,11 @@
              <asp:HyperLink ID="DOCR" runat="server" Font-Underline="false" ForeColor="White" NavigateUrl="~/client_DOCR.aspx">Document Request</asp:HyperLink>
          </div>
      </div>
+    <div class="right_tab">
+        <h3>Book A Librarian</h3>
+
+        <div class="promt_container">
+            
+        </div>
+    </div>
 </asp:Content>

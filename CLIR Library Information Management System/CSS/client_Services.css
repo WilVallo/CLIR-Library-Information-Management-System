@@ -1,4 +1,15 @@
-﻿.left_navbar {
+﻿.main_window {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.left_navbar {
     height: 100vh;
     width: 30vh;
     background-color: #1B233C;
@@ -6,7 +17,7 @@
     padding-top: 20px;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -15,4 +26,20 @@
     font-size: 13px;
     font-family: 'Segoe UI';
     color: white;
+}
+
+.right_tab {
+    margin: 30px;
+    width: 100vh;
+}
+
+.prompt_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prompt {
+    height: 30px;
+    padding-left: 8px;
 }
