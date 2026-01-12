@@ -96,12 +96,12 @@ namespace CLIR_Library_Information_Management_System
         protected global::System.Web.UI.WebControls.DropDownList stayTime;
 
         /// <summary>
-        /// bas_submit control.
+        /// submitBTN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bas_submit;
+        protected global::System.Web.UI.WebControls.Button submitBTN;
     }
 }

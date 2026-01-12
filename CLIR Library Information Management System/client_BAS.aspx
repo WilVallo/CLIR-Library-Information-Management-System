@@ -35,7 +35,7 @@
                 <asp:DropDownList ID="stayTime" runat="server"  CssClass="prompt">
                 </asp:DropDownList>
 
-                <asp:Button ID="bas_submit" runat="server" Text="Submit"/>
+                <asp:Button ID="submitBTN" runat="server" Text="Submit" CssClass="submitbutton"/>
             </div>
         </div>
     </div>

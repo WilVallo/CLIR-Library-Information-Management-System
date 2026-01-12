@@ -10,7 +10,7 @@ h3 {
 }
 
 .left_navbar {
-    height: 100vh;
+    height: 120vh;
     width: 30vh;
     background-color: #1B233C;
     color: white;
@@ -90,4 +90,14 @@ h4 {
 .dataprivText {
     font-family: 'Segoe UI';
     text-align: justify;
+}
+
+.container_double{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.indented{
+    text-indent: initial
 }
