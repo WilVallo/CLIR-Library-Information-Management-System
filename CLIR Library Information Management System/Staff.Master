@@ -7,8 +7,9 @@
     <title>CLIR Library Information Management</title>
     <link href="~/CSS/default.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="Images/CLIR_Logo.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -20,6 +21,7 @@
                 <div class="logo_div">
                     <img src="~\Images\CLIR_Logo.png" runat="server" class="logo"/>
                 </div>
+
                 <div>
                     <p class="dept_name">CENTER FOR LEARNING AND INFORMATION RESOURCES</p>
                     <p class="school_name">Mapúa Malayan Colleges Laguna</p>
@@ -27,7 +29,7 @@
             </div>
 
             <div class="h_right">
-                <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="logout_BTN" Width="100px" />
+                <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="btn btn-primary" Width="100px" />
             
             </div>
         </header>
@@ -50,5 +52,7 @@
             </div>
         </div>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

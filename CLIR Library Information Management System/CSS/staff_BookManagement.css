@@ -1,0 +1,54 @@
+﻿.content{
+    margin: 30px;
+    width: 100vw;
+}
+
+
+h4 {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    margin-top: 0;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    margin-top: 0;
+    margin: 0;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.container_box{
+    height: 130px;
+    width: 400px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.list-container {
+    padding: 20px;
+    height: 68vh;
+    width: 625px;
+    background-color: gray;
+    border-radius: 10px;
+}

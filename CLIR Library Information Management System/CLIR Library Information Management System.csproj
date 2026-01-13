@@ -76,6 +76,7 @@
     <Content Include="CSS\client_Services.css" />
     <Content Include="CSS\default.css" />
     <Content Include="CSS\landing.css" />
+    <Content Include="CSS\staff_BookManagement.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\CLIR_Logo.png" />

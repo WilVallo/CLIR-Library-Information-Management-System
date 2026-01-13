@@ -38,7 +38,7 @@ p{
     width: 50%;
 }
 .logo{
-    width: 40px;
+    width: 50px;
 }
 
 .logo_div{
@@ -78,7 +78,11 @@ p{
     gap: 30px;
 }
 
-.maincontent{
+.right_content{
+    width: 100vh;
+}
+
+.main_content{
     display: flex;
-    height: 100vh;
+    flex-direction: row
 }
