@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Staff.master.cs" Inherits="CLIR_Library_Information_Management_System.Staff" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Staff.master.cs" Inherits="CLIR_Library_Information_Management_System.Staff_Master" %>
 
 <!DOCTYPE html>
 

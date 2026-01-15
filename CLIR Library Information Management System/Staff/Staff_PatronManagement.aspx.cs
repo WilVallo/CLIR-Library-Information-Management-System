@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CLIR_Library_Information_Management_System
+namespace CLIR_Library_Information_Management_System.Staff
 {
-    public partial class Staff_Master : System.Web.UI.MasterPage
+    public partial class Staff_PatronManagement : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

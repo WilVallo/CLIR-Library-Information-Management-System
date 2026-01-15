@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CLIR_Library_Information_Management_System
+namespace CLIR_Library_Information_Management_System.Admin
 {
 
 
-    public partial class Staff_Master
+    public partial class Admin
     {
 
         /// <summary>
@@ -42,76 +42,40 @@ namespace CLIR_Library_Information_Management_System
         protected global::System.Web.UI.WebControls.Button logout_BTN;
 
         /// <summary>
-        /// Dashboard control.
+        /// AdminDashboard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Dashboard;
+        protected global::System.Web.UI.WebControls.HyperLink AdminDashboard;
 
         /// <summary>
-        /// Reports control.
+        /// StaffManagement control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Reports;
+        protected global::System.Web.UI.WebControls.HyperLink StaffManagement;
 
         /// <summary>
-        /// Book_Management control.
+        /// SystemReports control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Book_Management;
+        protected global::System.Web.UI.WebControls.HyperLink SystemReports;
 
         /// <summary>
-        /// Patron_Records control.
+        /// SystemLogs control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Patron_Records;
-
-        /// <summary>
-        /// ODDS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink ODDS;
-
-        /// <summary>
-        /// Turnitin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Turnitin;
-
-        /// <summary>
-        /// Grammarly control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink Grammarly;
-
-        /// <summary>
-        /// BAL control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink BAL;
+        protected global::System.Web.UI.WebControls.HyperLink SystemLogs;
 
         /// <summary>
         /// ContentPlaceHolder1 control.
