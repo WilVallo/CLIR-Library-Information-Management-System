@@ -17,8 +17,9 @@
             
             <asp:DropDownList ID="ddlUserType" runat="server" CssClass="form-select mb-2">
                 <asp:ListItem Text="-- Select Role --" Value=""></asp:ListItem>
-                <asp:ListItem Text="Student Assistant" Value="Student Assistant"></asp:ListItem>
+                <asp:ListItem Text="Admin" Value="Admin"></asp:ListItem>
                 <asp:ListItem Text="Librarian" Value="Librarian"></asp:ListItem>
+                <asp:ListItem Text="Student Assistant" Value="Student Assistant"></asp:ListItem>
             </asp:DropDownList>
 
             <asp:Button ID="btnSave" runat="server" Text="Save Staff" CssClass="btn btn-success" OnClick="btnSave_Click" />
