@@ -24,8 +24,8 @@
                 </div>
             </div>
             <div class="h_right">
-                <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="btn btn-primary" Width="100px" />
-            </div>
+    <asp:Button ID="logout_BTN" runat="server" Text="Log Out" CssClass="btn btn-primary" Width="100px" OnClick="logout_BTN_Click" UseSubmitBehavior="false" />
+</div>
         </header>
 
         <div class="main_content">

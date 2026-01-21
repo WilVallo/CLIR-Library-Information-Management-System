@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace CLIR_Library_Information_Management_System.Admin
 {
@@ -11,7 +7,16 @@ namespace CLIR_Library_Information_Management_System.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void logout_BTN_Click(object sender, EventArgs e)
+        {
+            // Clear all session data
+            Session.Clear();
+            Session.Abandon();
+
+            // Redirect to the root login page
+            Response.Redirect("~/Default.aspx");
         }
     }
 }
